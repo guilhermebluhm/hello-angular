@@ -8,6 +8,8 @@ import { ModelCursos } from '../model/model-cursos';
 })
 export class CursosComponent implements OnInit {
 
+  displayedColumns = ["id","descricao","serialNo"]
+  
   lista_cursos : ModelCursos[] = [
     {
       id: 1,
